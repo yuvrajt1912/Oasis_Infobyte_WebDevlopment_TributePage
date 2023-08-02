@@ -1,0 +1,88 @@
+
+
+body {
+    background-color: black;
+
+}
+
+.mainbox {
+    display: flex;
+    display: block;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.774);
+    border-left: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+
+    margin: 0px 25%;
+}
+
+.first {
+    display: flex;
+    size: 55rem;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    color: white;
+    size: 55rem;
+    margin-top: 100%;
+    margin-bottom: 50%;
+    font-size: larger;
+    justify-items: center;
+}
+
+.second #backg img {
+    height: 100% ;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.774);
+    display: block;
+    margin: 0px 0%;
+    margin-left: -2px;
+    padding: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.three {
+    display: flex;
+    display: block;
+    
+}
+
+.bio {
+    display: flex;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    justify-items: center;
+    justify-content: center;
+}
+
+.cont {
+    display: flex;
+    display: block;
+    font-size: larger;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.box {
+    color: rgb(255, 253, 253);
+    font-size: 1.2rem;
+    
+}
+
+.copy {
+    display: flex;
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    color: white;
+
+}
